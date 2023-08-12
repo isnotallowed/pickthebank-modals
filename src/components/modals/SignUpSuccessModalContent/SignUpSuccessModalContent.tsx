@@ -25,7 +25,7 @@ export const SignUpSuccessModalContent: FC<SignUpSuccessModalContentProps> = ({
             <a href="https://mail.ru" target="_blank">
               <Button
                 text="Go to mail.ru"
-                className="px-14 mt-6"
+                className="mt-6 min-w-[160px]"
                 twig="secondary"
               />
             </a>
@@ -47,7 +47,7 @@ export const SignUpSuccessModalContent: FC<SignUpSuccessModalContentProps> = ({
             </p>
             <Button
               text="Continue"
-              className="px-14 mt-6"
+              className="mt-6 min-w-[160px]"
               twig="secondary"
               onClick={closeModal}
             />
