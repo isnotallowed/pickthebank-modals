@@ -1,4 +1,3 @@
-import { Input } from '@/components/elements/Input'
 import MailIcon from '@/components/icons/MailIcon'
 import GoogleIcon from '@/components/icons/GoogleIcon'
 import FacebookIcon from '@/components/icons/FacebookIcon'
@@ -6,6 +5,7 @@ import React, { useMemo, useState } from 'react'
 import { Button } from '@/components/elements/Button'
 import { useShowModal } from '@/usecases/modals'
 import { checkIsEmailValid } from '@/utils/email'
+import { Input } from '@/components/elements/Input'
 
 export const SignUpModalContent = () => {
   const { showSignUpSuccessModal } = useShowModal()
