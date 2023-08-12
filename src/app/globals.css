@@ -17,7 +17,7 @@ a {
 }
 
 .modal {
-    @apply w-max bg-white h-screen sm:h-max sm:rounded-3xl overflow-scroll py-12 relative;
+    @apply w-full sm:w-max bg-white h-screen sm:h-max sm:rounded-3xl overflow-scroll py-12 relative;
     max-height: 100%;
     box-shadow: 0 8px 48px 0 #0000661A;
 }
