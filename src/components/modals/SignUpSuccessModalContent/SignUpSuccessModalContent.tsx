@@ -66,7 +66,7 @@ export const SignUpSuccessModalContent: FC<SignUpSuccessModalContentProps> = ({
           height={128}
         />
         <h2 className="text-3xl font-bold mt-4 text-darkBlue">
-          Sign up to our monthly deposits overview!
+          Confirm your e-mail address
         </h2>
         {renderedFooter}
       </div>
