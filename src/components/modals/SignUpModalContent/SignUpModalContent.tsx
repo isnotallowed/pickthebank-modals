@@ -15,7 +15,7 @@ export const SignUpModalContent = () => {
   }, [email])
 
   return (
-    <div className="bg-white w-full h-full min-h-screen sm:min-h-full sm:h-max sm:w-[660px] md:w-[480px] lg:w-[604px] flex flex-col items-center text-center">
+    <div className="bg-white w-full sm:min-h-full sm:h-max sm:w-[660px] md:w-[480px] lg:w-[604px] flex flex-col items-center text-center">
       <div className="max-w-[364px]">
         <h2 className="text-3xl font-bold text-darkBlue">
           Sign up to our monthly deposits overview!
