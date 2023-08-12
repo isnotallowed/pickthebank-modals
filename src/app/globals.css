@@ -17,7 +17,7 @@ a {
 }
 
 .modal {
-    @apply w-max bg-white h-max sm:rounded-lg overflow-scroll;
+    @apply w-max bg-white h-max sm:rounded-3xl overflow-scroll;
     max-height: 100%;
     box-shadow: 0 8px 48px 0 #0000661A;
 }
