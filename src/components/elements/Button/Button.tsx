@@ -33,8 +33,8 @@ export const Button: FC<ButtonProps> = ({
       onClick={onClick}
       disabled={disabled}
     >
-      {icon && <span className={'flex-shrink'}>{icon}</span>}
-      <span className={'flex-grow'}>{text}</span>
+      {icon && <span className="flex-shrink">{icon}</span>}
+      <span className="flex-grow">{text}</span>
     </button>
   )
 }

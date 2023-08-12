@@ -17,10 +17,10 @@ export const SignUpModalContent = () => {
   return (
     <div className="bg-white w-full h-screen sm:h-max sm:w-[660px] md:w-[480px] lg:w-[604px] flex flex-col items-center text-center">
       <div className="max-w-[364px]">
-        <h2 className={'text-3xl font-bold text-darkBlue'}>
+        <h2 className="text-3xl font-bold text-darkBlue">
           Sign up to our monthly deposits overview!
         </h2>
-        <p className={'text-base text-[#506392] mt-4'}>
+        <p className="text-base text-[#506392] mt-4">
           ⚡️ Stay updated of the highest rates!
         </p>
         <Input
@@ -34,7 +34,7 @@ export const SignUpModalContent = () => {
           onClick={() => {
             showSignUpSuccessModal(email)
           }}
-          className={'w-full mt-3'}
+          className="w-full mt-3"
           icon={<MailIcon />}
           disabled={!isEmailValid}
         />
@@ -46,14 +46,14 @@ export const SignUpModalContent = () => {
         <Button
           text="Continue with Google"
           onClick={() => {}}
-          className={'w-full mt-3 font-medium'}
+          className="w-full mt-3 font-medium"
           icon={<GoogleIcon />}
           twig="white"
         />
         <Button
           text="Continue with Facebook"
           onClick={() => {}}
-          className={'w-full mt-3 font-medium'}
+          className="w-full mt-3 font-medium"
           icon={<FacebookIcon />}
           twig="white"
         />

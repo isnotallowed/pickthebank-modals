@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main>
-      <Button text={'Sign up with Email'} onClick={showSignUpModal} />
+      <Button text="Sign up with Email" onClick={showSignUpModal} />
     </main>
   )
 }

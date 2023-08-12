@@ -22,9 +22,9 @@ export const SignUpSuccessModalContent: FC<SignUpSuccessModalContentProps> = ({
               Емеил отправлен на вашу почту
               <span className="text-darkBlue font-semibold"> {email}</span>
             </p>
-            <a href="https://mail.ru" target={'_blank'}>
+            <a href="https://mail.ru" target="_blank">
               <Button
-                text={'Go to mail.ru'}
+                text="Go to mail.ru"
                 className="px-14 mt-6"
                 twig="secondary"
               />
@@ -46,7 +46,7 @@ export const SignUpSuccessModalContent: FC<SignUpSuccessModalContentProps> = ({
               Click the link to log in.
             </p>
             <Button
-              text={'Continue'}
+              text="Continue"
               className="px-14 mt-6"
               twig="secondary"
               onClick={closeModal}
@@ -65,7 +65,7 @@ export const SignUpSuccessModalContent: FC<SignUpSuccessModalContentProps> = ({
           width={128}
           height={128}
         />
-        <h2 className={'text-3xl font-bold mt-4 text-darkBlue'}>
+        <h2 className="text-3xl font-bold mt-4 text-darkBlue">
           Sign up to our monthly deposits overview!
         </h2>
         {renderedFooter}
